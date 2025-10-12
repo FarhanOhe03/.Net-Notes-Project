@@ -1,0 +1,9 @@
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.csproj.AssemblyReference.cache
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.AssemblyInfoInputs.cache
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.AssemblyInfo.cs
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.csproj.CoreCompileInputs.cache
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.RazorAssemblyInfo.cache
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.RazorAssemblyInfo.cs
+/Users/hannn/NotesApp/obj/Debug/net8.0/NotesApp.sourcelink.json
