@@ -32,22 +32,18 @@ namespace NotesApp.Services
             await _context.SaveChangesAsync();
         }
 
-       public async Task UpdateNoteAsync(Note note)
+      public async Task UpdateNoteAsync(Note note)
 {
-    // Find the existing tracked entity
     var existingNote = await _context.Notes.FindAsync(note.Id);
+    if (existingNote == null)
+        return;
     
-    if (existingNote != null)
-    {
-        // Update the properties of the tracked entity
-        existingNote.Title = note.Title;
-        existingNote.Content = note.Content;
-        existingNote.Priority = note.Priority;
-        existingNote.LastModifiedDate = DateTime.Now;
-        
-        // No need to call Update() - the entity is already tracked
-        await _context.SaveChangesAsync();
-    }
+    existingNote.Title = note.Title;
+    existingNote.Content = note.Content;
+    existingNote.Priority = note.Priority;
+    existingNote.LastModifiedDate = DateTime.Now;
+    
+    await _context.SaveChangesAsync();
 }
 
         public async Task DeleteNoteAsync(int id)
