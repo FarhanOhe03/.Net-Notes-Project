@@ -66,3 +66,26 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+/* Note priority color borders */
+.border-success {
+    border-left: 5px solid #28a745 !important;
+}
+
+.border-warning {
+    border-left: 5px solid #ffc107 !important;
+}
+
+.border-danger {
+    border-left: 5px solid #dc3545 !important;
+}
+
+/* Card hover effect */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
